@@ -1,0 +1,12 @@
+{
+  "name": "riwiflow",
+  "version": "1.0.0",
+  "description": "RiwiFlow Kanban Task Manager - SPA with json-server",
+  "scripts": {
+    "server": "json-server --watch db.json --port 3000",
+    "start": "json-server --watch db.json --port 3000"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}
